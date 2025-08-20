@@ -337,6 +337,69 @@ width: 100%;
 
 
 }
+
+
+
+
+
+/* start main */
+.main{
+
+
+}
+.container{
+
+
+
+
+
+
+}
+.works{
+text-align: center;
+
+
+}
+.works-text{
+color:#6c7890;
+text-align: center;
+margin-bottom: 0;
+margin-top: 0.8rem;
+}
+.works-titles{
+color: #081d43;
+text-align: center;
+margin-top: 0.5rem;
+
+}
+
+.works-content{
+    margin-top: 4rem;
+  display:flex;
+
+
+}
+.works-content-item{
+
+
+
+
+}
+.works-content-title{
+
+
+
+}
+.works-content-text{
+line-height: 2rem;
+color: #6c7890;
+/* واکنش گرایی بهتر */
+max-width: 16rem;
+
+
+}
+
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {

@@ -243,9 +243,19 @@ font-weight: normal;
 font-family: "TTNorms Light";
 
 }
+.comment-container{
+max-width: 70rem;
+margin: 3.5rem auto;
+
+
+
+}
 .comments{
 margin: 3.5rem 0;
 display:flex ;
+justify-content: center;
+flex-wrap: wrap;
+
 }
 .comment{
 background-color: white;
@@ -253,6 +263,12 @@ margin: 1rem;
 border-radius: 0.5rem;
 text-align: left;
 padding: 1.2rem;
+display: flex;
+flex-direction: column;
+ min-height: 18rem;
+justify-content: space-between;
+flex-basis: 20rem;
+
 }
 .comment-content{
 
@@ -269,7 +285,8 @@ margin:0 ;
 
 display: flex;
 border-top: 1px solid #e8ebef;
-padding: 1.2rrem;
+padding: 1.2rem;
+align-items: center;
 }
 .comment-img{
 
@@ -279,6 +296,15 @@ padding: 1.2rrem;
 .comment-person{
 
 color: black;
+margin-left: 0.5rem;
+margin: 0;
+}
+.companies{
 
 
+
+
+}
+.company__img{
+    
 }

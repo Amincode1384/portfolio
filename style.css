@@ -300,11 +300,14 @@ margin-left: 0.5rem;
 margin: 0;
 }
 .companies{
-
+display: flex;
+ /* justify-content: space-around;  */
 
 
 
 }
-.company__img{
-    
+.company-img{
+display: block;
+
+
 }

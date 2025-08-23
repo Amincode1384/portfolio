@@ -159,13 +159,14 @@ text-align: center;
 
 
 }
-.works-text{
+.works-text,.portfolio-text{
 color:#6c7890;
 text-align: center;
 margin-bottom: 0;
 margin-top: 0.8rem;
+text-transform: uppercase;
 }
-.works-titles{
+.works-titles,.portfolio-titles{
 color: #081d43;
 text-align: center;
 margin-top: 0.5rem;
@@ -244,7 +245,7 @@ font-family: "TTNorms Light";
 
 }
 .comment-container{
-max-width: 70rem;
+max-width: 65rem;
 margin: 3.5rem auto;
 
 
@@ -253,16 +254,14 @@ margin: 3.5rem auto;
 .comments{
 margin: 3.5rem 0;
 display:flex ;
-justify-content: center;
-flex-wrap: wrap;
+justify-content: space-between;
+
 
 }
 .comment{
-background-color: white;
+background-color: #fff;
 margin: 1rem;
 border-radius: 0.5rem;
-text-align: left;
-padding: 1.2rem;
 display: flex;
 flex-direction: column;
  min-height: 18rem;
@@ -271,7 +270,8 @@ flex-basis: 20rem;
 
 }
 .comment-content{
-
+text-align: left;
+padding: 1.2rem;
 
 }
 .comment-body{
@@ -285,29 +285,64 @@ margin:0 ;
 
 display: flex;
 border-top: 1px solid #e8ebef;
-padding: 1.2rem;
+padding: 0.8rem 1.2rem;
 align-items: center;
 }
 .comment-img{
-
+    /* display: flex;
+justify-content: space-between; */
 
 
 }
 .comment-person{
 
 color: black;
-margin-left: 0.5rem;
-margin: 0;
+margin: 0 0 0 0.5rem;
 }
 .companies{
 display: flex;
- /* justify-content: space-around;  */
-
+ justify-content: space-between; 
+align-items: center;
+margin-top: 5rem;
+flex-wrap: wrap;
 
 
 }
 .company-img{
 display: block;
+margin: 1rem;
+
+}
 
 
+/* portfolio */
+.portfolio{
+text-align: center;
+padding: 2rem 0;
+
+}
+.container{
+
+}
+.portfolio-text{
+
+}
+.portfolio-titles{
+
+
+}
+.portfolio-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 3rem;
+}
+.portfolio-item{
+flex-basis: 23rem;
+ margin-bottom: 2rem;
+ border-radius: 0.5rem;
+ overflow: hidden;
+}
+.portfolio-img{
+width: 100%;
 }

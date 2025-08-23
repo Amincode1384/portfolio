@@ -346,3 +346,66 @@ flex-basis: 23rem;
 .portfolio-img{
 width: 100%;
 }
+
+/* footer */
+.footer{
+
+}
+
+.newsletter{
+background-color:#264fd5 ;
+padding: 3rem 0;
+color: white;
+}
+.container{
+
+
+}
+.newsletter-wrapper{
+display: flex;
+justify-content:space-between ;
+align-items: center;
+
+}
+.newsletter-text{
+font-size:1.6rem ;
+
+}
+.newsletter-mail{
+background-color: #fff;
+flex-basis: 20rem;
+display: flex;
+padding: 0.4rem 0.4rem 0.4rem 1.5rem;
+justify-content: space-between;
+border-radius: 0.5rem;
+align-items: center;
+}
+
+.newsletter-txt{
+outline: none;
+border: none;
+}
+
+.newsletter-btn{
+background-color: #2f5bea;
+border: none;
+outline: none;
+padding: 1rem 1.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 0.5rem;
+}
+.copyright{
+color: rgb(72, 60, 60);
+padding: 1rem 0;
+}
+.copy-right-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.copy-right-text{
+
+
+}

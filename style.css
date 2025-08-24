@@ -1,11 +1,351 @@
 
 /* Start Project */
 
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "TTNorms";
+}
+
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.header{
+
+
+}
+.nav{
+display: flex;
+align-items: center;
+
+}
+.nav-logo{
+margin-right: 2rem;
+
+}
+.nav-logo-img{
+
+}
+.menu{
+
+list-style-type: none;
+padding-left: 0;
+margin: 0;
+display: flex;
+
+}
+.menu-item{
+    margin: 1rem;
+
+
+}
+.header-link{
+background-color: #3472cf;
+text-decoration: none;
+color: white;
+padding: 0.8rem 2rem;
+border-radius: 0.5rem;
+}
+.menu-link{
+text-decoration: none;
+color: #081d43;
+padding: 0 1rem;
+
+}
+.header-top{
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 1.5rem 0;
+}
 /* .header-bottom */
+.header-bottom{
+
+margin-top: 6rem;
+
+}
+.header-content{
+display: flex;
+align-items: center;
+}
+.header-content-left{
+ flex-basis: 50%;
+
+}
+.header-content-title{
+color: 081d43;
+font-family: "TTnorms Medium";
+
+}
+.header-content-text{
+    color: black;
+    line-height: 2rem;
+
+
+}
+.header-content-links{
+display: flex;
+margin-top: 1.5rem;
+font-weight: normal;
+}
+.heade-content-rapper{
+   max-width:  28rem;
+}
+.header-content-link{
+background-color: #7acf34;
+text-decoration: none;
+color: white;
+padding: 0.8rem 2rem;
+border-radius: 0.5rem;
+margin: 0.8rem;
+display: block;
+width: 10rem;
+text-align: center;
+}
+.header-content-link2{
+background-color: #3477cf;
+text-decoration: none;
+color: white;
+padding: 0.8rem 2rem;
+border-radius: 0.5rem;
+display: block;
+width: 10rem;
+text-align: center;
+height: 3rem;
+margin: 0.5rem;
+
+}
+.header-content-right{
+flex-basis: 50%;
+
+}
+.header-content-image{
+width: 100%;
+
+
+}
+
+
+
 
 
 /* start main */
+.main{
+padding: 6rem 0;
 
+}
+.container{
+
+
+
+
+
+
+}
+.works{
+text-align: center;
+
+
+}
+.works-text,.portfolio-text{
+color:#6c7890;
+text-align: center;
+margin-bottom: 0;
+margin-top: 0.8rem;
+text-transform: uppercase;
+}
+.works-titles,.portfolio-titles{
+color: #081d43;
+text-align: center;
+margin-top: 0.5rem;
+
+}
+
+.works-content{
+    margin-top: 3rem;
+  display:flex;
+justify-content: space-around;
+margin-bottom: 3rem;
+
+}
+.works-content-item{
+
+
+
+
+}
+.works-content-title{
+font-smooth: "TTNorms Medium";
+font-weight: normal;
+
+
+}
+.works-content-text{
+line-height: 2rem;
+color: #6c7890;
+/* واکنش گرایی بهتر */
+max-width: 16rem;
+
+
+}
+.works-image{
+max-width: 31rem;
+margin: 0 auto;
+
+}
+.image{
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+/* comments */
+
+.container{
+
+
+
+
+
+}
+.person-comment{
+background-color: #3472cf;
+color: white;
+text-align: center;
+padding: 2rem 0;
+
+
+}
+.person-comments-title{
+
+font-family: "TTNorms Medium";
+font-weight: normal;
+}
+.person-comment-text{
+
+font-family: "TTNorms Light";
+
+}
+.comment-container{
+max-width: 65rem;
+margin: 3.5rem auto;
+
+
+
+}
+.comments{
+margin: 3.5rem 0;
+display:flex ;
+justify-content: space-between;
+
+
+}
+.comment{
+background-color: #fff;
+margin: 1rem;
+border-radius: 0.5rem;
+display: flex;
+flex-direction: column;
+ min-height: 18rem;
+justify-content: space-between;
+flex-basis: 20rem;
+
+}
+.comment-content{
+text-align: left;
+padding: 1.2rem;
+
+}
+.comment-body{
+font-family: "Times Roman Italic";
+color: #7e8085;
+line-height: 1.5rem;
+margin:0 ;
+
+}
+.comment-info{
+
+display: flex;
+border-top: 1px solid #e8ebef;
+padding: 0.8rem 1.2rem;
+align-items: center;
+}
+.comment-img{
+    /* display: flex;
+justify-content: space-between; */
+
+
+}
+.comment-person{
+
+color: black;
+margin: 0 0 0 0.5rem;
+}
+.companies{
+display: flex;
+ justify-content: space-between; 
+align-items: center;
+margin-top: 5rem;
+flex-wrap: wrap;
+
+
+}
+.company-img{
+display: block;
+margin: 1rem;
+
+}
+
+
+/* portfolio */
+.portfolio{
+text-align: center;
+padding: 2rem 0;
+
+}
+.container{
+
+}
+.portfolio-text{
+
+}
+.portfolio-titles{
+
+
+}
+.portfolio-items{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 3rem;
+}
+.portfolio-item{
+flex-basis: 23rem;
+ margin-bottom: 2rem;
+ border-radius: 0.5rem;
+ overflow: hidden;
+}
+.portfolio-img{
+width: 100%;
+}
 
 /* footer */
 .footer{

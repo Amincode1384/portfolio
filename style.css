@@ -45,6 +45,7 @@ padding-left: 0;
 margin: 0;
 display: flex;
 
+
 }
 .menu-item{
     margin: 1rem;
@@ -62,6 +63,12 @@ border-radius: 0.5rem;
 text-decoration: none;
 color: #081d43;
 padding: 0 1rem;
+
+}
+.header-icon{
+font-size: 1.6rem;
+display: none;
+cursor: pointer;
 
 }
 .header-top{
@@ -87,7 +94,7 @@ align-items: center;
 .header-content-title{
 color: 081d43;
 font-family: "TTnorms Medium";
-
+font-size: 2.5rem;
 }
 .header-content-text{
     color: black;
@@ -101,7 +108,7 @@ margin-top: 1.5rem;
 font-weight: normal;
 }
 .heade-content-rapper{
-   max-width:  28rem;
+   max-width:  29.5rem;
 }
 .header-content-link{
 background-color: #7acf34;
@@ -127,6 +134,7 @@ height: 3rem;
 margin: 0.5rem;
 
 }
+
 .header-content-right{
 flex-basis: 50%;
 
@@ -143,7 +151,7 @@ width: 100%;
 
 /* start main */
 .main{
-padding: 6rem 0;
+/* padding: 6rem 0; */
 
 }
 .container{
@@ -156,21 +164,21 @@ padding: 6rem 0;
 }
 .works{
 text-align: center;
-
+padding: 5rem 0;
 
 }
 .works-text,.portfolio-text{
 color:#6c7890;
 text-align: center;
 margin-bottom: 0;
-margin-top: 0.8rem;
+margin-top: 0;
 text-transform: uppercase;
 }
 .works-titles,.portfolio-titles{
 color: #081d43;
 text-align: center;
 margin-top: 0.5rem;
-
+font-size: 1.8rem;
 }
 
 .works-content{
@@ -230,7 +238,7 @@ margin: 0 auto;
 background-color: #3472cf;
 color: white;
 text-align: center;
-padding: 2rem 0;
+padding: 5rem 0;
 
 
 }
@@ -238,11 +246,15 @@ padding: 2rem 0;
 
 font-family: "TTNorms Medium";
 font-weight: normal;
+margin-top: 0;
+font-size: 1.8rem;
 }
 .person-comment-text{
 
 font-family: "TTNorms Light";
-
+max-width: 28rem;
+margin: 0 auto;
+line-height: 1.8rem;
 }
 .comment-container{
 max-width: 65rem;
@@ -318,7 +330,7 @@ margin: 1rem;
 /* portfolio */
 .portfolio{
 text-align: center;
-padding: 2rem 0;
+padding: 5rem 0;
 
 }
 .container{
@@ -345,6 +357,8 @@ flex-basis: 23rem;
 }
 .portfolio-img{
 width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 /* footer */
@@ -354,7 +368,7 @@ width: 100%;
 
 .newsletter{
 background-color:#264fd5 ;
-padding: 3rem 0;
+padding: 6rem 0;
 color: white;
 }
 .container{
@@ -369,15 +383,15 @@ align-items: center;
 }
 .newsletter-text{
 font-size:1.6rem ;
-
+font-weight:normal ;
 }
 .newsletter-mail{
 background-color: #fff;
-flex-basis: 20rem;
+flex-basis: 22rem;
 display: flex;
 padding: 0.4rem 0.4rem 0.4rem 1.5rem;
 justify-content: space-between;
-border-radius: 0.5rem;
+border-radius: 0.3rem;
 align-items: center;
 }
 

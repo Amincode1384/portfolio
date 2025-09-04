@@ -34,6 +34,16 @@ display: flex;
 margin-top: 1.5rem;
 font-weight: normal;
 }
+.comments{
+    flex-wrap: wrap;
+
+}
+comment{
+    flex-basis: 19rem;
+}
+.companies{
+    justify-content: center;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -71,7 +81,21 @@ justify-content: space-around;
 margin-bottom: 3rem;
 flex-wrap: wrap;
 }
+.works-content-item{
 
+flex-basis: 14rem;
+flex-shrink: 0;
+
+
+}
+.comment{
+    flex-basis: 100%;
+    margin-bottom: 0.5rem;
+}
+.companies{
+    margin-top: 2.5rem;
+    flex-direction: column;
+}
 }
 
 @media only screen and (max-width: 576px) {
@@ -95,8 +119,13 @@ flex-wrap: wrap;
 }
 .works-content-item{
 
-flex-basis: 13rem;
-
-
+flex-basis: 100%;
+margin: 0 auto;
+margin-bottom: 2rem;
 }
+.comment{
+    flex-basis: 100%;
+    margin-bottom: 1rem;
+}
+
 }

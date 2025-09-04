@@ -187,11 +187,13 @@ font-size: 1.8rem;
   display:flex;
 justify-content: space-around;
 margin-bottom: 3rem;
+flex-wrap: wrap;
 
 }
 .works-content-item{
 
-
+flex-basis: 16rem;
+flex-shrink: 0;
 
 
 }
@@ -205,8 +207,8 @@ font-weight: normal;
 line-height: 2rem;
 color: #6c7890;
 /* واکنش گرایی بهتر */
-max-width: 16rem;
-
+max-width: 16rem%;
+margin: 0 auto;
 
 }
 .works-image{
